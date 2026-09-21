@@ -29,6 +29,7 @@ O processo de funcionamento do código funciona da seguinte forma:
 - Preco
 - Status
 Em seguida, criasse uma classe `Product` qual herda da interface `IProduct`, contendo métodos como:
+
  
 - um *constructor* para definir caracteristicas de cada objeto;
 - `Addestoque`, que recebe um valor inteiro para ser adicionado;
@@ -37,7 +38,8 @@ Em seguida, criasse uma classe `Product` qual herda da interface `IProduct`, con
 - `CheckUp`, para mostrar as características do objeto;
 - outros métodos para ver status.
 Concomitantemente, existirá uma classe específica chamada `ProductController`, está que controla o fluxo de ações do código, contendo um método assincrono de cadastrar, onde é possível cadastrar ao produto no banco de dados Postgres SQL que guarda os produtos na tabela `produto`, também contemos o método `Inicio`, qual de fato controla o fluxo de ações do app, desde o controle de ações feitas no produto, como os próprios métodos definidos na classe `Product`.
- 
+ <img width="797" height="132" alt="image" src="https://github.com/user-attachments/assets/a679f5b1-5ab7-4f6f-9955-45a873c90ba7" />
+
 ## Fluxograma
  
 Link dos fluxogramas: [Abrir no Google Drive](https://drive.google.com/file/d/1QYainqxIpzL3AftonQbXvIjeKuLGa8YT/view?usp=drive_link)
